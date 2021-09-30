@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">gs://yashlan---incremental-dilo.appspot.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">819889012764</string>
+  <string name="google_storage_bucket" translatable="false">yashlan---incremental-dilo.appspot.com</string>
+  <string name="project_id" translatable="false">yashlan---incremental-dilo</string>
+  <string name="google_api_key" translatable="false">AIzaSyCELC5e5YtrEyo2G9_EVrU72ENvt7uzD3Y</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCELC5e5YtrEyo2G9_EVrU72ENvt7uzD3Y</string>
+  <string name="google_app_id" translatable="false">1:819889012764:android:abaea62407eb6e6e7e1fd9</string>
+  <string name="default_web_client_id" translatable="false">819889012764-e6nl175p3c7rkmudfutm3bh3t2u5avr7.apps.googleusercontent.com</string>
+</resources>

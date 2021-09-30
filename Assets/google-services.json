@@ -1,0 +1,40 @@
+{
+    "project_info": {
+        "project_number": "819889012764",
+        "project_id": "yashlan---incremental-dilo",
+        "firebase_url": "gs://yashlan---incremental-dilo.appspot.com",
+        "storage_bucket": "yashlan---incremental-dilo.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:819889012764:android:abaea62407eb6e6e7e1fd9",
+                "android_client_info": {
+                    "package_name": "com.yashlan.incremental"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "819889012764-e6nl175p3c7rkmudfutm3bh3t2u5avr7.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyCELC5e5YtrEyo2G9_EVrU72ENvt7uzD3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "819889012764-e6nl175p3c7rkmudfutm3bh3t2u5avr7.apps.googleusercontent.com",
+                            "client_type": 3
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

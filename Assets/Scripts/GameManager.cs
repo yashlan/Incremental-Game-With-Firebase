@@ -32,13 +32,17 @@ namespace Yashlan.manage
             set => UserDataManager.Progress.Gold = value;
         }
 
-        private void Start()
+        public float SaveDelay = 5f;
+        private float _saveDelayCounter;
+
+        void Start()
         {
             AddAllResources();
         }
 
-        private void Update()
+        void Update()
         {
+            _saveDelayCounter -= Time.unscaledDeltaTime;
             // Fungsi untuk selalu mengeksekusi CollectPerSecond setiap detik
             _collectSecond += Time.unscaledDeltaTime;
             if (_collectSecond >= 1f)
@@ -127,6 +131,12 @@ namespace Yashlan.manage
         {
             TotalGold += value;
             GoldInfo.text = $"Gold: { TotalGold.ToString("0") }";
+            UserDataManager.Save(_saveDelayCounter < 0f);
+
+            if (_saveDelayCounter < 0f)
+            {
+                _saveDelayCounter = SaveDelay;
+            }
         }
 
         public void CollectByTap(Vector3 tapPosition, Transform parent)

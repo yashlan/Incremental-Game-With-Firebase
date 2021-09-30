@@ -21,7 +21,7 @@ namespace Yashlan.controller
             {
                 // Menyimpan value yang di set ke _level pada Progress Data
                 UserDataManager.Progress.ResourcesLevels[_index] = value;
-                UserDataManager.Save();
+                UserDataManager.Save(true);
             }
             get
             {
@@ -94,6 +94,7 @@ namespace Yashlan.controller
 
             ResourceUpgradeCost.text = $"Upgrade Cost\n{ GetUpgradeCost() }";
             ResourceDescription.text = $"{ _config.Name } Lv. { _level }\n+{ GetOutput().ToString("0") }";
+            AnalyticsManager.LogUpgradeEvent(_index, _level);
         }
 
         public void UnlockResource()
@@ -107,6 +108,7 @@ namespace Yashlan.controller
             SetUnlocked(true);
             GameManager.Instance.ShowNextResource();
             AchievementController.Instance.UnlockAchievement(AchievementType.UnlockResource, _config.Name);
+            AnalyticsManager.LogUnlockEvent(_index);
         }
 
         public void SetUnlocked(bool unlocked)
@@ -118,7 +120,7 @@ namespace Yashlan.controller
                 if (!UserDataManager.HasResources(_index))
                 {
                     UserDataManager.Progress.ResourcesLevels.Add(_level);
-                    UserDataManager.Save();
+                    UserDataManager.Save(true);
                 }
             }
             ResourceImage.color = IsUnlocked ? Color.white : Color.grey;
