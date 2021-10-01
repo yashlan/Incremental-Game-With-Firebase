@@ -17,4 +17,7 @@
  Note : jangan lupa ekstrak dulu file Firebase.rar di dalam folder Asset sebelum open projectnya.
  
  ## How To Play Step 1 and 2
- Download Filenya Di Release Branch main
+ Download Filenya Di Releases.<br>
+ atau bisa klik disini : <br>
+ step 1 : https://github.com/yashlan/Incremental-Game-With-Firebase/releases/download/exe/yashlan.-.incremental.game.step.1.rar <br>
+ step 2 : https://github.com/yashlan/Incremental-Game-With-Firebase/releases/download/apk/yashlan.-.incremental.game.firebase.apk
