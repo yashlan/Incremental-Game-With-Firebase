@@ -2,7 +2,7 @@
  tugas chapter 8 dilo game academy
  
  ## E-mail Firebase
- muhammad_yashlan_iskandar@teknokrat.ac.id
+ mail to : muhammad_yashlan_iskandar@teknokrat.ac.id
  
  ## How To Setup Step 1
  
