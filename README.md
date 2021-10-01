@@ -14,7 +14,7 @@
  step 2 adalah pengujian save dan load data cloud dari firebase storage dan juga ada analytics.<br>
  anda dapat mengunduh projectnya di branch = setup-and-fire-analytics. <br>
  
- Note : jangan lupa ekstrak dulu file Firebase.rar di dalam folder Asset sebelum open projectnya.
+ <b>Note : jangan lupa ekstrak dulu file Firebase.rar di dalam folder Asset sebelum open projectnya.</b>
  
  ## How To Play Step 1 and 2
  Download Filenya Di Releases.<br>
