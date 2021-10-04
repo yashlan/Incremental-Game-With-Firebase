@@ -1,6 +1,10 @@
 # Incremental Game With Firebase Storage And Realtime Analytics
  tugas chapter 8 dilo game academy
  
+ ## Wiki Page
+ 
+ Halaman Technical Design Document : [Klik Disini](https://github.com/yashlan/Incremental-Game-With-Firebase/wiki/Technical-Design-Document-%5BIncremental-Game%5D)
+ 
  ## E-mail Firebase
  mail to : muhammad_yashlan_iskandar@teknokrat.ac.id
  
